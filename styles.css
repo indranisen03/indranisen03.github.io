@@ -724,6 +724,17 @@ strong {
     border-radius: 6px;
 }
 
+.project-card--featured {
+    border: 2px solid var(--accent);
+    grid-column: 1 / -1;
+}
+
+.project-type--new {
+    background: linear-gradient(135deg, var(--accent), #7c3aed);
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+}
+
 .publication-highlight {
     margin-top: 3rem;
     text-align: center;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indrani Sen | Technical Program Manager & Software Engineer</title>
+    <title>Indrani Sen | Senior Lead & Software Engineer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +38,7 @@
             <div class="hero-content">
                 <p class="hero-greeting">Hello, I'm</p>
                 <h1 class="hero-name">Indrani Sen</h1>
-                <p class="hero-title">Technical Program Manager & Software Engineer</p>
+                <p class="hero-title">Senior Lead & Software Engineer</p>
                 <p class="hero-tagline">Building scalable systems and leading cross-functional teams to deliver impactful solutions</p>
                 <div class="hero-cta">
                     <a href="#contact" class="btn btn-primary">Get In Touch</a>
@@ -153,6 +153,27 @@
                 <h2 class="section-title">Skills & Expertise</h2>
 
                 <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">
+                            <span class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="3"/>
+                                    <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>
+                                    <circle cx="12" cy="12" r="7" stroke-dasharray="3 2"/>
+                                </svg>
+                            </span>
+                            Agentic AI & LLMs
+                        </h3>
+                        <ul class="skill-list">
+                            <li>LangGraph (StateGraph, MemorySaver, HITL)</li>
+                            <li>Multi-agent orchestration & design patterns</li>
+                            <li>GPT-4o, Claude Sonnet, Gemini</li>
+                            <li>RAG pipelines (FAISS, BM25, hybrid)</li>
+                            <li>Structured outputs & Pydantic models</li>
+                            <li>LangSmith observability & evals</li>
+                        </ul>
+                    </div>
+
                     <div class="skill-category">
                         <h3 class="skill-category-title">
                             <span class="skill-icon">
@@ -284,9 +305,37 @@
         <section id="projects" class="projects section">
             <div class="container">
                 <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Representative projects showcasing my technical expertise and problem-solving abilities</p>
+                <p class="section-subtitle">Production-grade systems showcasing applied AI, software engineering, and enterprise design</p>
 
                 <div class="projects-grid">
+                    <article class="project-card project-card--featured">
+                        <div class="project-header">
+                            <span class="project-type project-type--new">MULTI-AGENT AI · NEW</span>
+                            <h3 class="project-title">Supply Chain Multi-Agent System</h3>
+                        </div>
+                        <p class="project-description">
+                            Production-grade 6-agent AI pipeline built for automotive supply chain decision-making — demand sensing, historical trend analysis, disruption simulation, purchase order optimization, LLM-as-Judge validation, and executive summarization. Built to demonstrate real agentic engineering for enterprise contexts.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>LangGraph StateGraph orchestration with MemorySaver HITL checkpointing; tiered approval gates (AUTO &lt;$10K / SOFT $10K–$50K / HARD &gt;$50K)</li>
+                            <li>BM25 RAG grounded in real Stellantis policy PDFs (Code of Conduct, Responsible Purchasing, Supplier Management Principles, FAR Part 12) — 336 real document chunks</li>
+                            <li>Independent Claude Sonnet judge scores every PO recommendation across 3 dimensions; append-only SOC2 JSONL audit trail for every tool call and human decision</li>
+                            <li>LangSmith observability, FastAPI backend, Streamlit dashboard with live ReAct trace, cost guardrails, and self-healing debug layer</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>LangGraph</span>
+                            <span>GPT-4o</span>
+                            <span>Claude Sonnet</span>
+                            <span>BM25 RAG</span>
+                            <span>Pydantic</span>
+                            <span>FastAPI</span>
+                            <span>Streamlit</span>
+                            <span>Docker</span>
+                            <span>LangSmith</span>
+                            <span>SOC2</span>
+                        </div>
+                    </article>
+
                     <article class="project-card">
                         <div class="project-header">
                             <span class="project-type">AI/ML</span>
@@ -489,7 +538,7 @@
         <section id="contact" class="contact section">
             <div class="container">
                 <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">I'm currently exploring opportunities in TPM, PM, BIE, and Systems Development roles</p>
+                <p class="section-subtitle">I'm currently exploring opportunities in ITA, PM, BIE, and Systems Development roles</p>
 
                 <div class="contact-content">
                     <div class="contact-info">
